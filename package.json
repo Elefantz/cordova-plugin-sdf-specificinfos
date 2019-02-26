@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-sdf-specificinfos",
+  "cordova_name": "Cordova Plugin OS Specific Infos by SuiviDeFlotte.net",
+  "description": "Cordova Plugin OS Specific Infos by SuiviDeFlotte.net",
+  "license": "MIT",
+  "repo": "",
+  "issue": "",
+  "author": {
+    "name": "SuiviDeFlotte.net",
+    "email": "contact@suivideflotte.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elefantz/cordova-plugin-sdf-specificinfos"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ios",
+    "android",
+    "cordova"
+  ],
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "engines": [],
+  "englishdoc": ""
+}
