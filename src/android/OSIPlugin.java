@@ -12,7 +12,7 @@ import org.json.JSONObject;
 
 import android.os.Bundle;
 
-import android.os.Build.VERSION.SDK_INT;
+import android.os.Build.VERSION;
 
 import java.util.Map;
 
@@ -46,7 +46,7 @@ public class OSIPlugin extends CordovaPlugin {
 				cordova.getActivity().runOnUiThread(new Runnable() {
 					public void run() {
 						try{
-							final int apiLevel = SDK_INT;
+							final int apiLevel = VERSION.SDK_INT;
 							
 							callbackContext.success( apiLevel );
 							Log.d(TAG,"\tapiLevel: "+ apiLevel);
